@@ -36,7 +36,7 @@ function Home() {
 
       <div class="table">
         <div class="row">
-          <div class="table-cell">
+          <div id="main" class="table-cell">
             <section id="moto">
               <Link to="moto/moto.html" title="Motocross Dirt Bikes">
                 <h2>Motocross</h2>
@@ -114,7 +114,7 @@ function Home() {
               </p>
             </section>
           </div>
-          <aside class="table-cell">
+          <aside id="sidebar" class="table-cell">
             <h3>Supercross Standings</h3>
             <p>
               View Current Monster Energy Supercross Statndings right{" "}
