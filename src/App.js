@@ -1,5 +1,5 @@
-import "./styles.css";
-import "./styles2.css";
+import "../../public/styles.css";
+import "../../public/styles2.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./home/Home.js";
 import Trails from "./home/trails/Trails.js";
